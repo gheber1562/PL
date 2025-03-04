@@ -10,7 +10,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
 - Crie um projeto chamado tabuleiro 
 - Instale o next.js
-- Descompacte a pasta app e cole da seguinte forma 
+- Cole os arquivos da seguinte forma (Veja no modo code)
 
 tabuleiro/
 ├── app/
