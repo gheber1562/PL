@@ -1,0 +1,75 @@
+.tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 0;
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
+    background-color: #d3d3d3;
+}
+
+.casaClara, .casaEscura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.casaClara {
+    background-color: #ffffff;
+}
+
+.casaEscura {
+    background-color: #000000;
+}
+
+.casaClara:hover,
+.casaEscura:hover {
+    filter: brightness(0.8);
+}
+
+.pecaAzul,
+.pecaVerde {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pecaAzul:hover,
+.pecaVerde:hover {
+    transform: scale(1.1);
+}
+
+.pecaAzul {
+    background-color: #0000ff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pecaVerde {
+    background-color: #008000;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main {
+    padding: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    text-align: center;
+}
